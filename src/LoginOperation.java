@@ -10,11 +10,11 @@ public class LoginOperation
         driver.manage().window().maximize();
         driver.get("https://the-internet.herokuapp.com/login");
 
-        WebElement txtusername = driver.findElement(By.id("username"));
-        txtusername.sendKeys("admin");
+        WebElement txtusername1 = driver.findElement(By.id("username"));
+        txtusername1.sendKeys("admin");
 
-        WebElement txtpassword = driver.findElement(By.id("password"));
-        txtpassword.sendKeys("Admin12");
+        WebElement txtpassword2 = driver.findElement(By.id("password"));
+        txtpassword2.sendKeys("Admin12");
 
 
         Thread.sleep(2000);
